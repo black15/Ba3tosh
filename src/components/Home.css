@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+table {
+    /* border: solid 1px black; */
+    padding: 5px;
+    line-height: 1.8;
+}
+
+.tbl-head td {
+    background-color: steelblue;
+    padding: 5px;
+}
+
+td {
+    border: solid 1px black;
+}
+
+@media screen and (max-width:780px) {
+    body{
+        min-width: 100%;
+        min-height: 100vh;
+    }
+}

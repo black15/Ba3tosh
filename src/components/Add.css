@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.add-form {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add-sub {
+    font-size: 14px;
+    background-color: steelblue;
+    color: wheat;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-btn {
+    overflow: hidden;
+    width: 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+    margin-top: 20px;
+    border-radius: 5px;
+}
